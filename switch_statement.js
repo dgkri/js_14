@@ -1,5 +1,6 @@
 
 // main function, in which i used all the below functions
+//the below function is only valid for value1 and value2 !=0
 function timeAdder(value1 = 1, label1 = "second", value2 = 1, label2 = "minute"){
   if(!validInput(value1, label1, value2, label2)){
     console.log("Inputs are Invalid");
