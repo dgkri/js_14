@@ -1,0 +1,74 @@
+
+body{
+  background-color: RGB(240,250,255);
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+svg{
+  width: 500px;;
+  height: 250px;
+  padding: 5%;
+}
+
+div {
+  margin: 30px;
+}
+
+#o1 svg{
+  background-color: SILVER;
+}
+
+#o2 svg{
+  background-color: GRAY;
+}
+
+#o3 svg{
+  background-color: RED;
+}
+
+#o4 svg{
+  background-color: MAROON;
+}
+
+#o5 svg{
+  background-color: YELLOW;
+}
+
+#o6 svg{
+  background-color: OLIVE;
+}
+
+#o7 svg{
+  background-color: LIME;
+}
+
+#o8 svg{
+  background-color: GREEN;
+}
+
+#o9 svg{
+  background-color: AQUA;
+}
+
+#o1o svg{
+  background-color: FUCHSIA;
+}
