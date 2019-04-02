@@ -1,8 +1,10 @@
-
+/*giving background color to body */
 body{
   background-color: RGB(240,250,255);
 }
 
+/*displaying the childs of main in flex form
+and giving padding to the main*/
 main{
   display: flex;
   justify-content: space-around;
@@ -12,6 +14,8 @@ main{
   padding-bottom: 0px;
 
 }
+
+/*aligning the text of h1, h2 and h3*/
 h1{
   text-align: center;
 }
@@ -23,6 +27,7 @@ h3 {
   margin-top: 0px;
 }
 
+/*giving the dimensions of the rectangles*/
 svg{
   width: 500px;;
   height: 250px;
@@ -33,6 +38,7 @@ div {
   margin: 30px;
 }
 
+/*giving different color to different rectangles*/
 #o1 svg{
   background-color: SILVER;
 }
