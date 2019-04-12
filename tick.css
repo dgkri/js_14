@@ -1,8 +1,10 @@
+/*i gave body a background color and align its text cont */
 body {
   background-color: skyblue;
   text-align: center;
 }
 
+/*also added some properties to the table , th and tr*/
 table {
   text-align: center;
   table-layout: fixed;
@@ -22,6 +24,10 @@ th {
   color: black;
 }
 
+/*but most imp is this div element property
+- i gave its display property as none, becouse this div is displaying the result,
+so i only want to disply it if some body won or the match is draw. so when the game
+has some result i changed its display property to block using js*/
 div{
   display: none;
   position: absolute;
