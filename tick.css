@@ -1,0 +1,49 @@
+body {
+  background-color: skyblue;
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  table-layout: fixed;
+  empty-cells: show;
+  background-color: orange;
+  border-width: 10px;
+  border: solid black 2px;
+  
+}
+tr{
+  height: 150px;
+}
+th {
+  width: 150px;
+  border: solid black 2px;
+  padding: 0px;
+  color: black;
+}
+
+div{
+  display: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: lightcyan;
+  top: 290px;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+button{
+  border: 1px solid #9361bf;
+  background: #9361bf;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 4px;
+  width: 100px;
+  float: center;
+  margin: 20px 40px;
+  border-left: 0;
+  color: white;
+}
