@@ -70,4 +70,6 @@ const {I:{name : student1}, II:{name: student2}} = students;
 
 console.log(student1, student2);
 
+const { I:{subjects:[sub_1,sub_2,sub_3]} } = students;
+console.log(`subjects of student1 are: ${sub_1}, ${sub_2} and ${sub_3}`);
 
