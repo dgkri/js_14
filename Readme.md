@@ -26,6 +26,7 @@ A Racing Game:
 Pseudo Code:(a small example of above, though this is not complete, just to give you a small hint)
 
 // general vehicle constructor
+
 function vehicle(name, color, top_speed, range){
     this.name = name;
     this.color = color;
@@ -34,22 +35,26 @@ function vehicle(name, color, top_speed, range){
 }
 
 // this car constructor inherits vehicle with one addition of distance, its present location
+
 const car(name, color, top_speed, range, distance){
     vehicle.call(this, name, color, top_speed, range);
     this.distance = distance;
 }
 
 // method for car... moved to increment dist..
+
 car.prototype.moved(x){
     this.distance += 5;
 }
 
 // bike is another vehicle which inherits from car...
+
 const bike(name, color, top_speed, range, distance){
     car.call(this, name, top_speed, range, distance);
 }
 
 // to also get the the moved method in its prototype
+
 bike.prototype = object.create(car.prototype);
 bike.prototype.constructor = bike;
 
