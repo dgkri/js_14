@@ -1,0 +1,52 @@
+body{
+    background-color: #dfdfdf;
+}
+
+.slide{
+    display: block;
+    width: 800px;
+    height: 600px;
+    padding: 30px 50px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 22px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(102, 102, 102);
+}
+
+h1 {
+    color:rgb(86, 168, 196);
+}
+
+h2 {
+    color:rgb(110, 110, 236);
+}
+
+.three h2{
+    color: rgb(201, 71, 31);
+}
+
+ul,p{
+    color: rgb(132, 200, 223);
+}
+
+
+
+.fourth h2 {
+    margin-top: 10px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.first img{
+    margin-left: 250px;
+}
+
+.llast h1{
+    margin: 200px 180px;
+}
