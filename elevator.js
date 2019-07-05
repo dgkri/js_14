@@ -68,7 +68,7 @@ class elevator {
             console.log(`Emergency, Reached floor ${this.current_floor}`);
             console.log(`Open Door`);
             Console.log(`Reset needed`);
-            clearTimeout(timer);// here in the emergency state we are removing the timer and stopping the 
+            clearInterval(timer);// here in the emergency state we are removing the timer and stopping the 
                                 // elevator from further use.. it will be reset first...
         }
     }
@@ -379,8 +379,8 @@ function down(x){
 // look here we used the setTimeout which calls the run method after every one second..
 // and the run function does the rest..
 function START(){
-    let At = setTimeout(A.run(At), 1000);// here in the run function we are passing the timer as argument
-    let Bt = setTimeout(B.run(Bt), 1000);// this is to tackel the emergency button..
+    let At = setInterval(A.run(At), 1000);// here in the run function we are passing the timer as argument
+    let Bt = setInterval(B.run(Bt), 1000);// this is to tackel the emergency button..
 }
 
 // this function is used to reset the elevators..
